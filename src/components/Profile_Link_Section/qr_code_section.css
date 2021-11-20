@@ -1,0 +1,46 @@
+#qr-section
+{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 60vh;
+    width: 50vw;
+    top: 10vh;
+    left: 45vw;
+    background: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    transition: 0.3s;
+    z-index: 500;
+}
+
+#qr-section p
+{
+    width: 100%;
+    text-align: center;
+    color: rgba(0,0,0,0.8);
+    font-size: 1.5rem;
+    /* background-color: antiquewhite; */
+}
+
+#close-button
+{
+    position: fixed;
+    right: 9vw;
+    top: 12vh;
+    color: rgba(0,0,0,0.6);
+    transition: 0.2s;
+    font-size: 1.5rem;
+}
+
+#close-button:hover
+{
+    color: rgba(0,0,0,0.9)
+}
+
+#qr-section svg[style]
+{
+    height: auto !important;
+    width: auto !important;
+}
